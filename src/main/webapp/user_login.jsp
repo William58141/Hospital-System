@@ -10,6 +10,11 @@
 <head>
     <title>User Login Page</title>
     <%@include file="component/allcss.jsp"%>
+    <style type="text/css">
+        .paint-card {
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 <body>
 <%@include file="component/navbar.jsp"%>
@@ -31,6 +36,8 @@
                         </div>
                         <button type="submit" class="btn bg-success text-white col-md-12">Login</button>
                     </form>
+                    <br> Don't have an account? <a href="signup.jsp"
+                                                   class="text-decoration-none"> Create one</a>
 
                 </div>
             </div>
