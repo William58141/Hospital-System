@@ -140,6 +140,8 @@
 
     </div>
 
+    <%@include file="component/footer.jsp"%>
+
 </div>
 </body>
 </html>
